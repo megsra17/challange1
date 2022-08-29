@@ -8,10 +8,13 @@
   --header-font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   --paragraph-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --bg-blue: #d9dcd6;
+  --bg-darkteal: #2a607c;
+  --bg-teal: #2589bd;
 }
 
 body {
-  background-color: #d9dcd6;
+  background-color: var(--bg-blue);
 }
 
 /* ===== Header ===== */
@@ -19,7 +22,7 @@ body {
 .header {
   padding: 20px;
   font-family: var(--header-font);
-  background-color: #2a607c;
+  background-color: var(--bg-darkteal);
   color: #ffffff;
 }
 
@@ -117,7 +120,7 @@ p {
   width: 20%;
   height: 100%;
   font-family: var(--paragraph-font);
-  background-color: #2589bd;
+  background-color: var(--bg-teal);
 }
 
 .benefit-cost,
